@@ -1,0 +1,31 @@
+/* Reset default browser margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply global font and background styles */
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  /* Ensure consistent layout and font rendering */
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Remove list styling, if used later */
+  ul {
+    list-style: none;
+  }
+  
